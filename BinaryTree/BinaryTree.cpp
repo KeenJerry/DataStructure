@@ -23,6 +23,7 @@ public:
 		PreOrderTraversal(root->right, vector1);
 	}
 
+	// 中序遍历
 	void MiddleOrderTraversal(TreeNode *root, vector<int> *vector1) {
 		if (root == nullptr) return;
 
@@ -32,6 +33,7 @@ public:
 		MiddleOrderTraversal(root->right, vector1);
 	}
 
+	// 后序遍历
 	void PostOrderTraversal(TreeNode *root, vector<int> *vector1) {
 		if (root == nullptr) return;
 
