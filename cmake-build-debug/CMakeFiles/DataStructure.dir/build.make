@@ -90,29 +90,29 @@ CMakeFiles/DataStructure.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keenjackdaw/CLionProjects/DataStructure/main.cpp -o CMakeFiles/DataStructure.dir/main.cpp.s
 
-CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o: ../BinaryTree/PreOrderTravelsal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keenjackdaw/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o -c /Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/PreOrderTravelsal.cpp
+CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keenjackdaw/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o -c /Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/BinaryTree.cpp
 
-CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/PreOrderTravelsal.cpp > CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.i
+CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/BinaryTree.cpp > CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.i
 
-CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/PreOrderTravelsal.cpp -o CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.s
+CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/BinaryTree.cpp -o CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.s
 
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.o" \
-"CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o"
+"CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
 
 DataStructure: CMakeFiles/DataStructure.dir/main.cpp.o
-DataStructure: CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o
+DataStructure: CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o
 DataStructure: CMakeFiles/DataStructure.dir/build.make
 DataStructure: CMakeFiles/DataStructure.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/keenjackdaw/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DataStructure"

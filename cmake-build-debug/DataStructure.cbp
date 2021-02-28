@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/PreOrderTravelsal.cpp">
+		<Unit filename="/Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/BinaryTree.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="/Users/keenjackdaw/CLionProjects/DataStructure/main.cpp">

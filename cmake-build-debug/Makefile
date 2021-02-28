@@ -143,32 +143,32 @@ DataStructure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-BinaryTree/PreOrderTravelsal.o: BinaryTree/PreOrderTravelsal.cpp.o
+BinaryTree/BinaryTree.o: BinaryTree/BinaryTree.cpp.o
 
-.PHONY : BinaryTree/PreOrderTravelsal.o
+.PHONY : BinaryTree/BinaryTree.o
 
 # target to build an object file
-BinaryTree/PreOrderTravelsal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o
-.PHONY : BinaryTree/PreOrderTravelsal.cpp.o
+BinaryTree/BinaryTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o
+.PHONY : BinaryTree/BinaryTree.cpp.o
 
-BinaryTree/PreOrderTravelsal.i: BinaryTree/PreOrderTravelsal.cpp.i
+BinaryTree/BinaryTree.i: BinaryTree/BinaryTree.cpp.i
 
-.PHONY : BinaryTree/PreOrderTravelsal.i
+.PHONY : BinaryTree/BinaryTree.i
 
 # target to preprocess a source file
-BinaryTree/PreOrderTravelsal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.i
-.PHONY : BinaryTree/PreOrderTravelsal.cpp.i
+BinaryTree/BinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.i
+.PHONY : BinaryTree/BinaryTree.cpp.i
 
-BinaryTree/PreOrderTravelsal.s: BinaryTree/PreOrderTravelsal.cpp.s
+BinaryTree/BinaryTree.s: BinaryTree/BinaryTree.cpp.s
 
-.PHONY : BinaryTree/PreOrderTravelsal.s
+.PHONY : BinaryTree/BinaryTree.s
 
 # target to generate assembly for a file
-BinaryTree/PreOrderTravelsal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.s
-.PHONY : BinaryTree/PreOrderTravelsal.cpp.s
+BinaryTree/BinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.s
+.PHONY : BinaryTree/BinaryTree.cpp.s
 
 main.o: main.cpp.o
 
@@ -206,9 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DataStructure"
-	@echo "... BinaryTree/PreOrderTravelsal.o"
-	@echo "... BinaryTree/PreOrderTravelsal.i"
-	@echo "... BinaryTree/PreOrderTravelsal.s"
+	@echo "... BinaryTree/BinaryTree.o"
+	@echo "... BinaryTree/BinaryTree.i"
+	@echo "... BinaryTree/BinaryTree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

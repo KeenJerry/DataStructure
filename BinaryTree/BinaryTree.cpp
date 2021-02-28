@@ -18,13 +18,26 @@ public:
 		if (root == nullptr) return;
 
 		vector1->push_back(root->val);
-		// 接下来就是递归了
-		// 首先如果root的左子树为null，右子树不为null 则继续遍历右子树, 相反同理
-		if (root->left == nullptr && root->right != nullptr) PreOrderTraversal(root->right, vector1);
-		if (root->left != nullptr && root->right == nullptr) PreOrderTraversal(root->left, vector1);
+		// 接下来就是递归了, 先左边后右边
+		PreOrderTraversal(root->left, vector1);
+		PreOrderTraversal(root->right, vector1);
+	}
 
-		// 如果两个子树都是null 则直接返回
-		if (root->left == nullptr && root->right == nullptr) return;
+	void MiddleOrderTraversal(TreeNode *root, vector<int> *vector1) {
+		if (root == nullptr) return;
+
+		// 先左边再右边，左子树为null，说明到达尽头，需要push back
+		MiddleOrderTraversal(root->left, vector1);
+		vector1->push_back(root->val);
+		MiddleOrderTraversal(root->right, vector1);
+	}
+
+	void PostOrderTraversal(TreeNode *root, vector<int> *vector1) {
+		if (root == nullptr) return;
+
+		PostOrderTraversal(root->left, vector1);
+		PostOrderTraversal(root->right, vector1);
+		vector1->push_back(root->val);
 	}
 };
 

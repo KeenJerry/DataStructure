@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/PreOrderTravelsal.cpp" "/Users/keenjackdaw/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/BinaryTree/PreOrderTravelsal.cpp.o"
+  "/Users/keenjackdaw/CLionProjects/DataStructure/BinaryTree/BinaryTree.cpp" "/Users/keenjackdaw/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/BinaryTree/BinaryTree.cpp.o"
   "/Users/keenjackdaw/CLionProjects/DataStructure/main.cpp" "/Users/keenjackdaw/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
