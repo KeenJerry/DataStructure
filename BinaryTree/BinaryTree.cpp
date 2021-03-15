@@ -68,3 +68,75 @@ void BinaryTreeSolution::PreOrderLoopTraversal(TreeNode *root, vector<int> *vect
 	}
 }
 
+TreeNode *BinaryTreeSolution::Insert(TreeNode *root, int val) {
+	if (root == nullptr)
+		root = new TreeNode{nullptr, nullptr, val};
+	else
+		if (root->val < val)
+			root = Insert(root->right, val);
+		else
+			if (root->val > val)
+				root = Insert(root->left, val);
+	return root;
+}
+
+TreeNode *BinaryTreeSolution::FindMin(TreeNode *root) {
+	if (root == nullptr)
+		return nullptr;
+	else
+		if (root->left == nullptr)
+			return root;
+		else
+			return FindMin(root->left);
+}
+
+TreeNode *BinaryTreeSolution::FindMax(TreeNode *root) {
+	if (root == nullptr)
+		return nullptr;
+	else
+		if (root->right == nullptr)
+			return root;
+		else
+			return FindMax(root->right);
+}
+
+TreeNode *BinaryTreeSolution::Delete(TreeNode *root, int val) {
+	TreeNode* tmp;
+	if (root == nullptr)
+		root = nullptr;
+	else
+		if (root->val < val)
+			root = Delete(root->right, val);
+		else
+			if (root->val > val)
+				root = Delete(root->left, val);
+			else {
+				if (root->left && root->right) {
+					tmp = FindMin(root->right);
+					root->val = tmp->val;
+					root = Delete(root->right, tmp->val);
+				} else {
+					tmp = root;
+					if (root->right == nullptr)
+						root = root->left;
+					else
+						root = root->right;
+					free(tmp);
+				}
+			}
+	return root;
+}
+
+TreeNode *BinaryTreeSolution::Find(TreeNode *root, int val) {
+	if (root == nullptr)
+		return nullptr;
+	else
+		if (root->val < val)
+			return Find(root->right, val);
+		else
+			if (root->val > val)
+				return Find(root->left, val);
+			else
+				return root;
+}
+

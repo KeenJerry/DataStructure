@@ -28,6 +28,20 @@ public:
 
 	// 前序迭代实现
 	void PreOrderLoopTraversal(TreeNode *root, vector<int> *vector1);
+
+	// 中序迭代实现
+	void MiddleOrderLoopTraversal(TreeNode *root, vector<int> *vector1);
+
+	TreeNode* Insert(TreeNode* root, int val);
+
+	TreeNode* FindMin(TreeNode* root);
+
+	TreeNode* FindMax(TreeNode* root);
+
+	TreeNode* Delete(TreeNode* root, int val);
+
+	TreeNode* Find(TreeNode* root, int val);
+
 };
 
 #endif //DATASTRUCTURE_BINARYTREE_H
